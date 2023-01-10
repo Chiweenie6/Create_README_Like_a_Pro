@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "name": "create_readme_like_a_pro",
+  "description": "Create a professional README using node.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chiweenie6/Create_README_Like_a_Pro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chiweenie6/Create_README_Like_a_Pro/issues"
+  },
+  "homepage": "https://github.com/Chiweenie6/Create_README_Like_a_Pro#readme"
+}
