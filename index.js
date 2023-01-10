@@ -16,23 +16,38 @@ const questions = [ {
     {
     type: "input",
     name: "description",
-    message: "Type description of project"
+    message: "Description of project?"
     }, 
     {
     type: "input",
     name: "installation",
-    message: "How to install project"
+    message: "How to install project?"
     }, 
     {
     type: "input",
     name: "usage",
-    message: "How to use project"
+    message: "How to use project?"
     }, 
     {
     type: "input",
     name: "contributing",
-    message: "List collaborators (is any)" 
+    message: "List collaborators (if any)?" 
+    },  
+    {
+    type: "input",
+    name: "tests",
+    message: "Provide a test (if any) and how to run it?"
     }, 
+    {
+    type: "input",
+    name: "gitHubUserName",
+    message: "What is your GitHub username?"
+    },
+    {
+    type: "input",
+    name: "email",
+    message: "What is your email?"
+    },
     {
     type: "list",
     name: "license",
@@ -41,18 +56,10 @@ const questions = [ {
         "MIT",
         "Microsoft Public License",
         "Mozilla Public License 2.0"
-        ]
-    }, 
-    {
-    type: "input",
-    name: "tests",
-    message: "Provide a test (if any) and how to run it"
-    }, 
-    {
-    type: "input",
-    name: "questions",
-    message: "What is your GitHub username?", 
-    message: "What is you e-mail?"
+        ],
+        filter(info) {
+            return info.toLowerCase();
+        }
     }];
 
 
@@ -63,8 +70,16 @@ function writeToFile(fileName, data) {}
 
 
 // TODO: Create a function to initialize app
-function init() {}
-
+function init() {
+    return inquirer.prompt(questions)
+    .then((answers) => {
+        console.log(answers);
+        return answers;
+    })
+    .catch((error) => {
+        console.log(error)
+    })
+}
 
 
 // Function call to initialize app

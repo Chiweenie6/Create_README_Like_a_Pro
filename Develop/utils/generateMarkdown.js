@@ -40,7 +40,8 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  ${data.questions}
+  ${data.gitHubUserName}
+  ${data.email}
 
   ## License
   ${data.lisence}
