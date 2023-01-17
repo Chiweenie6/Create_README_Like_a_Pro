@@ -1,9 +1,11 @@
 // TODO: Include packages needed for this application
 
 const inquirer = require("inquirer");
-const genMarkdown = require("./Develop/utils/generateMarkdown");
+const genMarkdown = require("./utils/generateMarkdown.js");
 const fs = require("fs");
 
+
+console.log(genMarkdown);
 console.log("working");
 
 
@@ -53,9 +55,9 @@ const questions = [ {
     name: "license",
     message: "Select license", 
     choices: [
+        "Apache_License",
         "MIT",
-        "Microsoft Public License",
-        "Mozilla Public License 2.0"
+        "Mozilla_Public_License"
         ],
         filter(info) {
             return info.toLowerCase();
@@ -64,8 +66,8 @@ const questions = [ {
 
 
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// // TODO: Create a function to write README file
+// function writeToFile(fileName, data) {}
 
 
 
@@ -73,13 +75,22 @@ function writeToFile(fileName, data) {}
 function init() {
     return inquirer.prompt(questions)
     .then((answers) => {
+        const markdown = genMarkdown.generateMarkdown(answers);
+
+        fs.writeFile("README.md", markdown, (err) =>
+            err ? console.log(err): console.log("YAY!")
+        );
         console.log(answers);
         return answers;
-    })
-    .catch((error) => {
-        console.log(error)
-    })
-}
+        });
+    }
+        
+        
+//     })
+//     .catch((error) => {
+//         console.log(error)
+//     })
+// }
 
 
 // Function call to initialize app
