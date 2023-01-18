@@ -2,9 +2,9 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   const licenseBadge = {
-    Apache_License: "[![Apache_License](https://img.shields.io/badge/License-Apache%20License-yellow)]()",
-    MIT: "[![MIT License](https://img.shields.io/badge/License-MIT-blue)]()",
-    Mozilla_Public_License: "[![Mozilla Public License](https://img.shields.io/badge/License-Mozilla%20Public-orange)]()"
+    apache_license: "[![Apache_License](https://img.shields.io/badge/License-Apache%20License-yellow)](https://opensource.org/licenses/Apache-2.0)",
+    mit: "[![MIT License](https://img.shields.io/badge/License-MIT-blue)]((https://opensource.org/licenses/MIT))",
+    mozilla_public_license: "[![Mozilla Public License](https://img.shields.io/badge/License-Mozilla%20Public-orange)](https://opensource.org/licenses/MPL-2.0)"
   }
   return licenseBadge[license];
 }
@@ -13,9 +13,9 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   const licenseLink = {
-    Apache_License: "[Apache_License](https://choosealicense.com/licenses/apache-2.0/)",
-    MIT: "[MIT](https://choosealicense.com/licenses/mit/)",
-    Mozilla_Public_License: "[Mozilla_Public_License](https://choosealicense.com/licenses/mpl-2.0/)"
+    apache_license: "[Apache_License](https://choosealicense.com/licenses/apache-2.0/)",
+    mit: "[MIT](https://choosealicense.com/licenses/mit/)",
+    mozilla_public_license: "[Mozilla_Public_License](https://choosealicense.com/licenses/mpl-2.0/)"
   }
   return licenseLink[license];
 }
@@ -24,8 +24,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license) {
-    return 
-  }
+    return `${renderLicenseLink(license)} license`
+  } else {
+    return "";
   }
   return licenseSection[license];
 }
@@ -62,11 +63,11 @@ ${renderLicenseBadge(data.license)}
   ${data.tests}
 
 ## Questions
-  ${data.gitHubUserName}/n
+  ${data.gitHubUserName}
   ${data.email}
 
 ## License
-  ${renderLicenseLink(data.licence)}
+  ${renderLicenseSection(data.license)}
 `;
 }
 

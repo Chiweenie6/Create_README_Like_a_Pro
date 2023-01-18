@@ -1,7 +1,7 @@
 
-# hello
+# README Generator
 
-undefined
+[![Apache_License](https://img.shields.io/badge/License-Apache%20License-yellow)](https://opensource.org/licenses/Apache-2.0)
 
 ## Table of Content
   - [Description](#Description)
@@ -13,23 +13,23 @@ undefined
   - [License](#License)
 
 ## Description
-  sdf
+  Create README file
 
 ## Usage
-  fggh
+  Type in information to create README file
 
 ## Installation
-  fg
+  Using terminal type npm i
 
 ## Contributing
-  ghjj
+  n/a
 
 ## Tests
-  nnhnh
+  npm i
 
 ## Questions
-  vbnvb/n
-  cv
+  heyYou
+  heyYou@gmail.com
 
 ## License
-  undefined
+  [Apache_License](https://choosealicense.com/licenses/apache-2.0/) license

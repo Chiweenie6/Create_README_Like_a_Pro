@@ -54,11 +54,7 @@ const questions = [ {
     type: "list",
     name: "license",
     message: "Select license", 
-    choices: [
-        "Apache_License",
-        "MIT",
-        "Mozilla_Public_License"
-        ],
+    choices: ["Apache_License", "MIT", "Mozilla_Public_License"],
         filter(info) {
             return info.toLowerCase();
         }
@@ -66,8 +62,13 @@ const questions = [ {
 
 
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function (err) {
+        if (err) throw err;
+        console.log("YEAH!");
+    });
+}
 
 
 
@@ -77,20 +78,15 @@ function init() {
     .then((answers) => {
         const markdown = genMarkdown.generateMarkdown(answers);
 
-        fs.writeFile("README.md", markdown, (err) =>
-            err ? console.log(err): console.log("YAY!")
-        );
+        writeToFile("README.md", markdown);
+
+        // fs.writeFile("README.md", markdown, (err) =>
+        //     err ? console.log(err): console.log("YAY!")
+        // );
         console.log(answers);
         return answers;
         });
     }
-        
-        
-//     })
-//     .catch((error) => {
-//         console.log(error)
-//     })
-// }
 
 
 // Function call to initialize app
