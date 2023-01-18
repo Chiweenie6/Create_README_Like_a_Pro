@@ -1,7 +1,7 @@
 
-# Create a README file Like a Pro
+# 
 
-[![Apache License](https://img.shields.io/badge/License-Apache%20License-yellow)](https://opensource.org/licenses/Apache-2.0)
+[![Mozilla Public License](https://img.shields.io/badge/License-Mozilla%20Public-orange)](https://opensource.org/licenses/MPL-2.0)
 
 ## Table of Content
   - [Description](#Description)
@@ -13,23 +13,24 @@
   - [License](#License)
 
 ## Description
-  Creating a README file using command line
+  d
 
 ## Usage
-  Input information the create a professional README
+  d  
+  ![Image](./images/ScreenshotChallenge3.png)
 
 ## Installation
-  npm install
+  g
 
 ## Contributing
-  n/a
+  s
 
 ## Tests
-  n/a
+  d
 
 ## Questions
-  https://github.com/Chiweenie6  
-  hey@gmail.com
+  "Click https://github.com/f to view my GitHub profile."  
+  "Click g to send me an email."
 
 ## License
-  [Apache](https://choosealicense.com/licenses/apache-2.0/) license, click link to view license.
+  [Mozilla Public](https://choosealicense.com/licenses/mpl-2.0/) license, click link to view license.
