@@ -21,10 +21,10 @@
   Inputing "npm install" into the command-line.
 
 ## Contributing
-  s
+  n/a
 
 ## Tests
-  d
+  n/a
 
 ## Questions
   https://github.com/Chiweenie6  
