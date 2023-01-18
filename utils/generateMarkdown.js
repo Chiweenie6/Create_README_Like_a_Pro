@@ -2,9 +2,9 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   const licenseBadge = {
-    apache_license: "[![Apache_License](https://img.shields.io/badge/License-Apache%20License-yellow)](https://opensource.org/licenses/Apache-2.0)",
+    apache: "[![Apache License](https://img.shields.io/badge/License-Apache%20License-yellow)](https://opensource.org/licenses/Apache-2.0)",
     mit: "[![MIT License](https://img.shields.io/badge/License-MIT-blue)]((https://opensource.org/licenses/MIT))",
-    mozilla_public_license: "[![Mozilla Public License](https://img.shields.io/badge/License-Mozilla%20Public-orange)](https://opensource.org/licenses/MPL-2.0)"
+    mozilla_public: "[![Mozilla Public License](https://img.shields.io/badge/License-Mozilla%20Public-orange)](https://opensource.org/licenses/MPL-2.0)"
   }
   return licenseBadge[license];
 }
@@ -13,9 +13,9 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   const licenseLink = {
-    apache_license: "[Apache_License](https://choosealicense.com/licenses/apache-2.0/)",
+    apache: "[Apache](https://choosealicense.com/licenses/apache-2.0/)",
     mit: "[MIT](https://choosealicense.com/licenses/mit/)",
-    mozilla_public_license: "[Mozilla_Public_License](https://choosealicense.com/licenses/mpl-2.0/)"
+    mozilla_public: "[Mozilla Public](https://choosealicense.com/licenses/mpl-2.0/)"
   }
   return licenseLink[license];
 }
@@ -24,11 +24,16 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license) {
-    return `${renderLicenseLink(license)} license`
+    return `${renderLicenseLink(license)} license, click link to view license.`
   } else {
     return "";
   }
   return licenseSection[license];
+}
+
+// Function for link to GitHub Repo
+function gitHubRepo (data) {
+  return `https://github.com/${data}`;
 }
 
 // TODO: Create a function to generate markdown for README
@@ -63,7 +68,7 @@ ${renderLicenseBadge(data.license)}
   ${data.tests}
 
 ## Questions
-  ${data.gitHubUserName}
+  ${gitHubRepo(data.gitHubUserName)}  
   ${data.email}
 
 ## License

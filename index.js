@@ -54,7 +54,7 @@ const questions = [ {
     type: "list",
     name: "license",
     message: "Select license", 
-    choices: ["Apache_License", "MIT", "Mozilla_Public_License"],
+    choices: ["Apache", "MIT", "Mozilla_Public"],
         filter(info) {
             return info.toLowerCase();
         }

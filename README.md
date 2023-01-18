@@ -1,7 +1,7 @@
 
-# README Generator
+# Create a README file Like a Pro
 
-[![Apache_License](https://img.shields.io/badge/License-Apache%20License-yellow)](https://opensource.org/licenses/Apache-2.0)
+[![Apache License](https://img.shields.io/badge/License-Apache%20License-yellow)](https://opensource.org/licenses/Apache-2.0)
 
 ## Table of Content
   - [Description](#Description)
@@ -13,23 +13,23 @@
   - [License](#License)
 
 ## Description
-  Create README file
+  Creating a README file using command line
 
 ## Usage
-  Type in information to create README file
+  Input information the create a professional README
 
 ## Installation
-  Using terminal type npm i
+  npm install
 
 ## Contributing
   n/a
 
 ## Tests
-  npm i
+  n/a
 
 ## Questions
-  heyYou
-  heyYou@gmail.com
+  https://github.com/Chiweenie6  
+  hey@gmail.com
 
 ## License
-  [Apache_License](https://choosealicense.com/licenses/apache-2.0/) license
+  [Apache](https://choosealicense.com/licenses/apache-2.0/) license, click link to view license.
