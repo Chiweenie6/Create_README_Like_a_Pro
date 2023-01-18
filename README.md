@@ -1,6 +1,6 @@
 # Create a README Like a Pro
 
-[![MIT License](https://img.shields.io/badge/License-MIT-blue)]((https://opensource.org/licenses/MIT)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue)]((https://opensource.org/licenses/MIT))
 
 ## Table of Content
   - [Description](#Description)
