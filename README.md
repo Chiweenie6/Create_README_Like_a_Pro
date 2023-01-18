@@ -28,7 +28,6 @@
 
 ## Questions
   https://github.com/Chiweenie6  
-  email@gmail.com
 
 ## License
   MIT License
