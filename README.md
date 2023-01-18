@@ -18,7 +18,7 @@
   To create a custom high quality professional README file based upon the users input.
 
 ## Installation
-  Inputing "npm install" into the command-line.
+  Copy application files into code.vs and then input "npm install" into the command-line. Then type "node index.js" into command-line and answer the questions. Once questions are filled out a professional README will be created.
 
 ## Contributing
   n/a
