@@ -21,19 +21,18 @@
   Inputing "npm install" into the command-line.
 
 ## Contributing
-  s
+  n/a
 
 ## Tests
-  d
+  n/a
 
 ## Questions
   https://github.com/Chiweenie6  
-  email@gmail.com
 
 ## License
   MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2023] [Kevin Breedlove]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
