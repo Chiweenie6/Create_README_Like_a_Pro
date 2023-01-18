@@ -35,8 +35,7 @@ function gitHubRepo (data) {
 
 // A function to generate markdown for a README.md
 function generateMarkdown(data) {
-  return `
-# ${data.title}
+  return `# ${data.title}
 
 ${renderLicenseBadge(data.license)}
 

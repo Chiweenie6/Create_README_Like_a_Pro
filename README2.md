@@ -1,7 +1,6 @@
+# jojopopo
 
-# 
-
-[![MIT License](https://img.shields.io/badge/License-MIT-blue)]((https://opensource.org/licenses/MIT))
+[![Mozilla Public License](https://img.shields.io/badge/License-Mozilla%20Public-orange)](https://opensource.org/licenses/MPL-2.0)
 
 ## Table of Content
   - [Description](#Description)
@@ -13,24 +12,24 @@
   - [License](#License)
 
 ## Description
-  f
+  sf
 
 ## Usage
-  df  
-  ![Image](./images/d)
+  dfg  
+  ![Image](./images/jo)
 
 ## Installation
-  
+  dfdg
 
 ## Contributing
-  fg
+  po
 
 ## Tests
-  d
+  sf
 
 ## Questions
-  Click https://github.com/f to view my GitHub profile.  
-  Click fx to send me an email.
+  Click https://github.com/sf to view my GitHub profile.  
+  Click  to send me an email.
 
 ## License
-  [MIT](https://choosealicense.com/licenses/mit/) license, click link to view license.
+  [Mozilla Public](https://choosealicense.com/licenses/mpl-2.0/) license, click link to view license.

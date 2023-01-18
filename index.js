@@ -28,7 +28,7 @@ const questions = [ {
     {
     type: "input",
     name: "screenshot",
-    message: "Screenshot imagename from images folder?"
+    message: "Screenshot image name from images folder?"
     }, 
     {
     type: "input",
