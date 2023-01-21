@@ -17,6 +17,7 @@
 ## Usage
   To create a custom high quality professional README file based upon the users input.  
   
+  Image:
   ![image](./images/README_Screenshot.png)
 
 ## Installation
