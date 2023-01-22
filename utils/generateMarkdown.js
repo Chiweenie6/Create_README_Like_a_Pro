@@ -54,7 +54,7 @@ ${renderLicenseBadge(data.license)}
 ## Usage
   ${data.usage}  
   Image:
-  ![Image](./images/${data.screenshot})
+  ![Image](../images/${data.screenshot})
 
 ## Installation
   ${data.installation}

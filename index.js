@@ -73,7 +73,7 @@ function init() {
     return inquirer.prompt(questions)
     .then((answers) => {
         const markdown = genMarkdown.generateMarkdown(answers);
-        writeToFile("README2.md", markdown);
+        writeToFile("./dist/README.md", markdown);
         console.log(answers);
         return answers;
         });
