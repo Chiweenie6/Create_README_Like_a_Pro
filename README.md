@@ -13,12 +13,16 @@
 
 ## Description
   Create a README file using a command-line application. This application uses the npm inquirer package and command-line to ask the user questions about their application and creates a professional README.md file by inserting the user's input into a high quality README template.
+  
+  Video demo link:
+  https://drive.google.com/file/d/17pQPrZzaBG-FhdyKlm03XuU9iZWXUoV6/view
 
 ## Usage
   To create a custom high quality professional README file based upon the users input.  
   
-  Image:
-  ![image](./images/README_Screenshot.png)
+  Image:   
+  ![image](https://user-images.githubusercontent.com/113393706/214594217-ac28ff4b-66da-451d-bb18-7e772419a1d0.png)
+
 
 ## Installation
   Copy application files into code.vs and then input "npm install" into the command-line. Then type "node index.js" into command-line and answer the questions. Once questions are filled out a professional README will be created.
