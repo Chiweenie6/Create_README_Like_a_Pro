@@ -20,7 +20,7 @@
 ## Usage
   To create a custom high quality professional README file based upon the users input.  
   
-  Image:
+  Image:   
   ![image](https://user-images.githubusercontent.com/113393706/214594217-ac28ff4b-66da-451d-bb18-7e772419a1d0.png)
 
 
